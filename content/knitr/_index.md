@@ -1,7 +1,8 @@
 ---
 title: knitr
-subtitle: Elegant, flexible, and fast dynamic report generation with R
+subtitle: Elegant, flexible and fast dynamic report generation with R
 date: '2017-02-03'
+show_title: true
 ---
 
 ## Overview
@@ -21,7 +22,7 @@ SweaveListingUtils + more).
   `\begin{verbatim}` and `\end{verbatim}`, or `<div class="rsource">` and
   `</div>`, and put `[1] 3` in `\begin{Routput}` and `\end{Routput}`; see
   the [hooks](hooks) page for details
-- **knitr** tries to be consistent with users' expections by running R code as
+- **knitr** tries to be consistent with users' expectations by running R code as
   if it were pasted in an R terminal, e.g., `qplot(x, y)` directly produces
   the plot (no need to `print()` it), and *all* the plots in a code chunk
   will be written to the output by default
@@ -140,7 +141,7 @@ testers. This package was initiated based on the design of **decumar**.
 ## FOAS
 
 <img src="https://db.yihui.name/imgur/XmT6L3F.png" style="float:right;margin-left:1em" width=150 />
-**knitr** is proudly affiliated with the [Foundation for Open Access
+`knitr` is proudly affiliated with the [Foundation for Open Access
 Statistics](http://www.foastat.org/) (FOAS). FOAS is a nonprofit public
 benefit corporation with a worldwide mission to promote free software, open
 access publishing, and reproducible research in statistics.
